@@ -1,0 +1,5 @@
+[gadi-login-03.gadi.nci.org.au:10637] shmem: posix: file name search - max attempts exceeded.cannot continue with posix.
+[gadi-login-03.gadi.nci.org.au:10640] shmem: posix: file name search - max attempts exceeded.cannot continue with posix.
+2019-12-12 08:26:22,316 post 0/1 INFO :: Merging files from 2d_averages/
+/home/552/nc3020/.local/lib/python3.6/site-packages/dedalus/tools/post.py:230: H5pyDeprecationWarning: other_ds.dims.create_scale(ds, name) is deprecated. Use ds.make_scale(name) instead.
+  joint_dset.dims.create_scale(scale, scalename)
