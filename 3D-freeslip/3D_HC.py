@@ -117,8 +117,8 @@ analysis2.add_task("interp(integ(dz(uz), 'y'), z=1)", layout='g', name='uzztop')
 
 
 # CFL
-CFL = flow_tools.CFL(solver, initial_dt=dt, cadence=2, safety=0.4,
-                      max_dt=0.125, threshold=0.)
+CFL = flow_tools.CFL(solver, initial_dt=dt, cadence=5, safety=0.4,
+                      max_dt=0.125, threshold=0.05)
 CFL.add_velocities(('u', 'v', 'w'))
 
 # Flow properties
